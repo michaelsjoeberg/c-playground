@@ -8,13 +8,6 @@ int main() {
     return 0;
 }
 
-/*
-
-    compile     : gcc hello.c -o hello
-    run         : ./hello
-
-*/
-
 // compile: $ gcc filename.c -o filename
 // run: $ ./filename
 
