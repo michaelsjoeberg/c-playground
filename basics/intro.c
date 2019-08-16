@@ -11,6 +11,12 @@ int main() {
 // compile: $ gcc filename.c -o filename
 // run: $ ./filename
 
+// misc operators
+int a = 10;
+
+sizeof(a)               // 4
+(int) &a                // -389511672
+
 '''
 Michael Sjoeberg
 2019-08-15
