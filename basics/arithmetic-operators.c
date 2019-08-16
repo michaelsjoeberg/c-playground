@@ -42,6 +42,12 @@ round(2.495)                    // 2.000000
 
 // no built in round to decimal places
 
+// increment and decrement
+int a = 10;
+
+a++                             // 11
+a--                             // 9
+
 '''
 Michael Sjoeberg
 2019-08-16
