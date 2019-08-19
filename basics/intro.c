@@ -2,8 +2,10 @@
 
 #include <stdio.h>
 
-int main() {
+int main(void) {
     // do something
+
+    printf("Hello world!");
 
     return 0;
 }
@@ -14,7 +16,10 @@ int main() {
 // misc operators
 int a = 10;
 
+// size in memory
 sizeof(a)               // 4
+
+// pointer
 (int) &a                // -389511672
 
 '''
