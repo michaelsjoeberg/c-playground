@@ -1,4 +1,4 @@
-// outside scope
+// outside scope (global)
 // variable declaration
 extern int x;
 extern char y[];
