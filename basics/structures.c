@@ -26,8 +26,25 @@ printf("%d\n", contact_one.number);         // 2445055
 // struct as function argument
 void function(struct Contacts contact);
 
+// bit fields
+
+// example
+struct {
+    unsigned int x;
+    unsigned int y;
+} status_one;
+
+struct {
+    unsigned int x : 1;
+    unsigned int y : 1;
+} status_two;
+
+printf("%lu\n", sizeof(status_one));        // 8
+printf("%lu\n", sizeof(status_two));        // 4
+
+
 '''
 Michael Sjoeberg
-2019-08-20
+2019-08-21
 https://github.com/michaelsjoeberg/c-playground/blob/master/basics/structures.c
 '''
