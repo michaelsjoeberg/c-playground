@@ -10,11 +10,9 @@ struct Contacts {
 } contact;
 
 // inside scope: access structure
-
 // declare struct type
 struct Contacts contact_one;
 
-// specify contact_one
 strcpy(contact_one.name, "Adam");
 strcpy(contact_one.email, "adam@email.com");
 contact_one.number = 2445055;
@@ -26,9 +24,27 @@ printf("%d\n", contact_one.number);         // 2445055
 // struct as function argument
 void function(struct Contacts contact);
 
-// bit fields
+// typedef: define a new data type
 
-// example
+// outside scope: define a structure
+typedef struct Contacts {
+    char name[40];
+    char email[40];
+    int number;
+} contact;
+
+// inside scope: access structure
+Contact contact;
+
+strcpy(contact.name, "Adam");
+strcpy(contact.email, "adam@email.com");
+contact.number = 2445055;
+
+printf("%s\n", contact.name);               // Adam
+printf("%s\n", contact.email);              // adam@email.com
+printf("%d\n", contact.number);             // 2445055
+
+// bit fields: 
 struct {
     unsigned int x;
     unsigned int y;
