@@ -8,8 +8,15 @@ array_one[0]                    // 200.000000
 array_two[1]                    // RANDOM
 
 array_one[0] = 50.0;
-
 array_one[0]                    // 50.000000
+
+// multi-dimensional array
+int array_multi[2][10] = {
+    { 0, 1, 2, 3, 4 },
+    { 5, 6, 7, 8, 9 }
+};
+
+array_multi[1][2]               // 7
 
 // no built in length function
 
@@ -20,6 +27,6 @@ length                          // 4
 
 '''
 Michael Sjoeberg
-2019-08-19
+2019-08-22
 https://github.com/michaelsjoeberg/c-playground/blob/master/basics/arrays.c
 '''
