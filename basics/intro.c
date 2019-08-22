@@ -18,15 +18,20 @@ int main(void) {
 // argv: pointer to array with arguments
 int main(int argc, char *argv[]) {
 
-    if (argc == 2) {
-        printf("Argument: %s\n", argv[1]);
+    // print file name
+    printf("Running: %s\n", argv[0]);
+
+    // print arguments
+    if (argc > 1) {
+        printf("%s\n", "Arguments: ");
+        
+        int i;
+        for (i = 1; i < argc; i++) {
+            printf("\t%s\n", argv[i]);
+        }
     }
-    else if( argc > 2 ) {
-        printf("%s\n", "Too many arguments.");
-    }
-    else {
-        printf("%s\n", "Expecting one argument.");
-    }
+
+    // do something
 
     return 0;
 }
@@ -42,6 +47,6 @@ sizeof(a)               // 4
 
 '''
 Michael Sjoeberg
-2019-08-15
+2019-08-22
 https://github.com/michaelsjoeberg/c-playground/blob/master/basics/intro.c
 '''
