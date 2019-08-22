@@ -1,5 +1,9 @@
-// filename.c
+/*
+    C is a general-purpose, procedural language developed by
+    Dennis Ritchie at Bell Labs in 1972.
+*/
 
+// filename.c
 #include <stdio.h>
 
 // compile: $ gcc filename.c -o filename
