@@ -22,6 +22,25 @@ strcmp(first_string, third_String)          // not equal
 
 strlen(first_string)                        // 17
 
+// reverse string
+
+// no built in function
+char* str_reverse(char *str) {
+    char tmp;
+    size_t n = 0;
+    size_t len = strlen(str);
+
+    for (n = 0; n < (len / 2); n++) {
+        tmp = str[n];
+        str[n] = str[len - n - 1];
+        str[len - n - 1] = tmp;
+    }
+
+    return str;
+}
+
+str_reverse("test")                         // tset
+
 '''
 Michael Sjoeberg
 2019-08-17
