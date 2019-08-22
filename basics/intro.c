@@ -49,8 +49,8 @@ sizeof(a)               // 4
 // pointer
 (int) &a                // -389511672
 
-'''
-Michael Sjoeberg
-2019-08-22
-https://github.com/michaelsjoeberg/c-playground/blob/master/basics/intro.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-22
+    https://github.com/michaelsjoeberg/c-playground/blob/master/basics/intro.c
+*/
