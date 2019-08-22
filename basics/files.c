@@ -1,23 +1,23 @@
-FILE *fp;
+FILE *file;
 
 // write to file
-fp = fopen("test.txt", "w+");
-fprintf(fp, "%s\n", "This is a string.");
+file = fopen("test.txt", "w+");
+fprintf(file, "%s\n", "This is a string.");
 
 // close file
-fclose(fp);
+fclose(file);
 
 // read a file
 char buffer[255];
 
-fp = fopen("test.txt", "r");
+file = fopen("test.txt", "r");
 
 // stops at first space
-fscanf(fp, "%s\n", buffer);
+fscanf(file, "%s\n", buffer);
 printf("%s\n", buffer);                 // This
 
 // stops at newline
-fgets(buffer, 255, (FILE*)fp);
+fgets(buffer, 255, (FILE*)file);
 printf("%s\n", buffer);                 // is a string.
 
 '''
