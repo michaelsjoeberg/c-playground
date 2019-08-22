@@ -1,7 +1,7 @@
-// declare function prototype before main() function when functions occur after main() function
+// declare function: before main() when functions are defined after the main() function
 int function(int arg);
 
-// declare function
+// define function
 int function(int arg) {
     // do something
 
@@ -10,7 +10,7 @@ int function(int arg) {
 
 // example
 
-// declare function prototype
+// declare function
 int power(int base, int x);
 
 // main() function
@@ -23,7 +23,7 @@ int main(void) {
     return 0;
 }
 
-// declare function after main() function
+// define function
 int power(int base, int x) {
     /* multiply base with itself x times */
 
