@@ -59,8 +59,8 @@ printf("%lu\n", sizeof(status_one));        // 8
 printf("%lu\n", sizeof(status_two));        // 4
 
 
-'''
-Michael Sjoeberg
-2019-08-21
-https://github.com/michaelsjoeberg/c-playground/blob/master/basics/structures.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-21
+    https://github.com/michaelsjoeberg/c-playground/blob/master/basics/structures.c
+*/

@@ -14,8 +14,8 @@ switch (a) {
         // do something
 }
 
-'''
-Michael Sjoeberg
-2019-08-19
-https://github.com/michaelsjoeberg/c-playground/blob/master/basics/switch.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-19
+    https://github.com/michaelsjoeberg/c-playground/blob/master/basics/switch.c
+*/

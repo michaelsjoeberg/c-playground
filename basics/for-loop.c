@@ -23,8 +23,8 @@ for (i = 0; i < 2; i++) {
     }
 }
 
-'''
-Michael Sjoeberg
-2019-08-19
-https://github.com/michaelsjoeberg/c-playground/blob/master/basics/for-loop.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-19
+    https://github.com/michaelsjoeberg/c-playground/blob/master/basics/for-loop.c
+*/

@@ -45,8 +45,8 @@ fprintf(stderr, "Quotient: %d\n", quotient);                // 5
 // EXIT_SUCCESS
 exit(EXIT_SUCCESS);
 
-'''
-Michael Sjoeberg
-2019-08-22
-https://github.com/michaelsjoeberg/c-playground/blob/master/basics/error-handling.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-22
+    https://github.com/michaelsjoeberg/c-playground/blob/master/basics/error-handling.c
+*/

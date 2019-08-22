@@ -28,8 +28,8 @@ printf("%s\n", data.str);                   // This is a string.
 printf("%d\n", data.i);                     // 1936287828
 
 
-'''
-Michael Sjoeberg
-2019-08-21
-https://github.com/michaelsjoeberg/c-playground/blob/master/basics/unions.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-21
+    https://github.com/michaelsjoeberg/c-playground/blob/master/basics/unions.c
+*/

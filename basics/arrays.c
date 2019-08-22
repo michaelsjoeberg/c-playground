@@ -25,8 +25,8 @@ int length = sizeof(array_one) / sizeof(double);
 
 length                          // 4
 
-'''
-Michael Sjoeberg
-2019-08-22
-https://github.com/michaelsjoeberg/c-playground/blob/master/basics/arrays.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-22
+    https://github.com/michaelsjoeberg/c-playground/blob/master/basics/arrays.c
+*/

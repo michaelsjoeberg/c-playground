@@ -20,8 +20,8 @@ printf("%s\n", buffer);                 // This
 fgets(buffer, 255, (FILE*)file);
 printf("%s\n", buffer);                 // is a string.
 
-'''
-Michael Sjoeberg
-2019-08-21
-https://github.com/michaelsjoeberg/c-playground/blob/master/basics/files.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-21
+    https://github.com/michaelsjoeberg/c-playground/blob/master/basics/files.c
+*/

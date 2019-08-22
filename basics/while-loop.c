@@ -13,8 +13,8 @@ do {
     a++;
 } while (a < 5);
 
-'''
-Michael Sjoeberg
-2019-08-19
-https://github.com/michaelsjoeberg/c-playground/blob/master/basics/while-loop.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-19
+    https://github.com/michaelsjoeberg/c-playground/blob/master/basics/while-loop.c
+*/

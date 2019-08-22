@@ -29,8 +29,8 @@ printf("%s\n", MESSAGE);                    // This is a message.
 printf("%d\n", square(2));                  // 4
 printf("%d\n", MAX(4,5));                   // 5
 
-'''
-Michael Sjoeberg
-2019-08-21
-https://github.com/michaelsjoeberg/c-playground/blob/master/basics/macros.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-21
+    https://github.com/michaelsjoeberg/c-playground/blob/master/basics/macros.c
+*/

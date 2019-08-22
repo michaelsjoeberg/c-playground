@@ -54,8 +54,8 @@ int a = 10;
 a++                             // 11
 a--                             // 9
 
-'''
-Michael Sjoeberg
-2019-08-16
-https://github.com/michaelsjoeberg/c-playground/blob/master/basics/arithmetic-operators.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-16
+    https://github.com/michaelsjoeberg/c-playground/blob/master/basics/arithmetic-operators.c
+*/

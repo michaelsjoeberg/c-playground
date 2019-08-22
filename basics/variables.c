@@ -23,8 +23,8 @@ int c, d;
 // multiple variable initialisation
 c = d = 6;                  // 6, 6
 
-'''
-Michael Sjoeberg
-2019-08-16
-https://github.com/michaelsjoeberg/c-playground/blob/master/basics/variables.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-16
+    https://github.com/michaelsjoeberg/c-playground/blob/master/basics/variables.c
+*/

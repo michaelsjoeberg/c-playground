@@ -44,8 +44,8 @@ printf("Description: %s\n", description);               // Description: Adam War
 // release memory
 free(description);
 
-'''
-Michael Sjoeberg
-2019-08-22
-https://github.com/michaelsjoeberg/c-playground/blob/master/other/memory-management.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-22
+    https://github.com/michaelsjoeberg/c-playground/blob/master/other/memory-management.c
+*/

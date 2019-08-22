@@ -7,8 +7,8 @@ int x;
 
 printf("%d\n", number);                 // 10
 
-'''
-Michael Sjoeberg
-2019-08-21
-https://github.com/michaelsjoeberg/c-playground/blob/master/basics/header.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-21
+    https://github.com/michaelsjoeberg/c-playground/blob/master/basics/header.c
+*/

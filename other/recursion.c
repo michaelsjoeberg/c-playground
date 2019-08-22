@@ -17,8 +17,8 @@ int i = 12;
 
 printf("Factorial of %d is %llu\n", i, factorial(i));       // Factorial of 12 is 479001600
 
-'''
-Michael Sjoeberg
-2019-08-22
-https://github.com/michaelsjoeberg/c-playground/blob/master/other/recursion.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-22
+    https://github.com/michaelsjoeberg/c-playground/blob/master/other/recursion.c
+*/

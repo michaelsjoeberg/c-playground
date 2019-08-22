@@ -10,8 +10,8 @@ printf("%p\n", &a);             // 0x7ffee73d9608
 printf("%p\n", ip);             // 0x7ffee73d9608
 printf("%d\n", *ip);            // 5
 
-'''
-Michael Sjoeberg
-2019-08-20
-https://github.com/michaelsjoeberg/c-playground/blob/master/basics/pointers.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-20
+    https://github.com/michaelsjoeberg/c-playground/blob/master/basics/pointers.c
+*/

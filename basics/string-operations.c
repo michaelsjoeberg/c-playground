@@ -41,8 +41,8 @@ char* str_reverse(char *str) {
 
 str_reverse("test")                         // tset
 
-'''
-Michael Sjoeberg
-2019-08-17
-https://github.com/michaelsjoeberg/c-playground/blob/master/basics/string-operations.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-17
+    https://github.com/michaelsjoeberg/c-playground/blob/master/basics/string-operations.c
+*/

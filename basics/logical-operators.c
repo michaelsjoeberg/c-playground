@@ -20,8 +20,8 @@ T && (T && F)           // 0
 1 >= 2                  // 0
 1 <= 2                  // 1
 
-'''
-Michael Sjoeberg
-2019-08-16
-https://github.com/michaelsjoeberg/c-playground/blob/master/basics/logical-operators.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-16
+    https://github.com/michaelsjoeberg/c-playground/blob/master/basics/logical-operators.c
+*/

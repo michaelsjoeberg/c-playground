@@ -66,8 +66,8 @@ double average(int n, ...) {
 // inside scope: use function
 printf("Average of 2, 3, 4, 5: %f\n", average(2, 3, 4, 5));         // Average of 2, 3, 4, 5: 3.500000
 
-'''
-Michael Sjoeberg
-2019-08-22
-https://github.com/michaelsjoeberg/c-playground/blob/master/basics/functions.c
-'''
+/*
+    Michael Sjoeberg
+    2019-08-22
+    https://github.com/michaelsjoeberg/c-playground/blob/master/basics/functions.c
+*/
