@@ -6,7 +6,7 @@
 10 * 20                         // 200
 20 / 10                         // 2
 
-// power has no operator
+// power require math.h
 pow(10, 2)                      // 100.00000
 
 // floating point conversion
