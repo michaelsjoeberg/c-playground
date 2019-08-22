@@ -47,5 +47,5 @@ free(description);
 '''
 Michael Sjoeberg
 2019-08-22
-https://github.com/michaelsjoeberg/c-playground/blob/master/basics/memory-management.c
+https://github.com/michaelsjoeberg/c-playground/blob/master/other/memory-management.c
 '''
