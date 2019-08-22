@@ -9,7 +9,13 @@
 // power has no operator
 pow(10, 2)                      // 100.00000
 
-// floating point conversion using cast
+// floating point conversion
+10.0 + (10 + 20)                // 40.000000
+
+// note: char is promoted to int value
+'c' + 10                        // 109 (ascii value of c is 99)
+
+// floating point conversion using type casting
 (double) 10.0 + (10 + 20)       // 40.000000
 (double) 20.0 - (10 + 10)       // 0.000000
 (double) 10.0 * (10 * 2)        // 200.000000
