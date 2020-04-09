@@ -3,3 +3,4 @@ basics/test.c
 basics/test.txt
 applications/app
 applications/Makefile
+.DS_Store
