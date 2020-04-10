@@ -14,6 +14,10 @@ int main(void) {
     }
 }
 
+// ./main
+// 2
+// 1.41421356
+
 /*
     Michael Sjoeberg
     2019-08-22
