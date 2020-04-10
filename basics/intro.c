@@ -9,6 +9,10 @@
 // compile: $ gcc filename.c -o filename
 // run: $ ./filename
 
+// makefile
+// main: filename.c
+//     gcc -o main filename.c
+
 int main(void) {
     // do something
 
