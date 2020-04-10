@@ -5,3 +5,4 @@ applications/app
 applications/Makefile
 .DS_Store
 applications/main
+DRAFT_*
