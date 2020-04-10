@@ -13,10 +13,10 @@ int main(void) {
 
     scanf("%lf %c", &temp, &unit);
     if (unit == 'C') {
-        printf("%.1f\n F", c_to_f(temp));
+        printf("%.1f F", c_to_f(temp));
 
     } else if (unit == 'F') {
-        printf("%.1f\n C", f_to_c(temp));
+        printf("%.1f C", f_to_c(temp));
     }
 }
 
@@ -31,6 +31,10 @@ double c_to_f(double temp) {
 double f_to_c(double temp) {
     return ((5.0 / 9) * (temp - 32));
 }
+
+// ./main
+// 40 C
+// 104.0 F
 
 /*
     Michael Sjoeberg
