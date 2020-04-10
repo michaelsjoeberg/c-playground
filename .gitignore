@@ -4,3 +4,4 @@ basics/test.txt
 applications/app
 applications/Makefile
 .DS_Store
+applications/main
